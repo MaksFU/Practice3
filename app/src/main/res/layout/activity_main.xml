@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TableRow>
+            <TextView
+                style="@style/textViewStyle"
+                android:text="@string/vertical"/>
+        </TableRow>
+
+        <TableRow style="@style/layoutStyleV"
+            android:background="@color/red"
+            android:gravity="center">
+            <TextView
+                android:gravity="center"
+                android:text="КАЖДЫЙ"/>
+        </TableRow>
+
+        <TableRow style="@style/layoutStyleV"
+            android:background="@color/orange"
+            android:gravity="center">
+            <TextView
+                android:gravity="center"
+                android:text="ОХОТНИК"/>
+        </TableRow>
+
+        <TableRow style="@style/layoutStyleV"
+            android:background="@color/yellow"
+            android:gravity="center">
+            <TextView
+                android:gravity="center"
+                android:text="ЖЕЛАЕТ"/>
+        </TableRow>
+
+        <TableRow style="@style/layoutStyleV"
+            android:background="@color/green"
+            android:gravity="center">
+            <TextView
+                android:gravity="center"
+                android:text="ЗНАТЬ"/>
+        </TableRow>
+
+        <TableRow style="@style/layoutStyleV"
+            android:background="@color/azure"
+            android:gravity="center">
+            <TextView
+                android:gravity="center"
+                android:text="ГДЕ"/>
+        </TableRow>
+
+        <TableRow style="@style/layoutStyleV"
+            android:background="@color/blue"
+            android:gravity="center">
+            <TextView
+                android:gravity="center"
+                android:text="СИДИТ"/>
+        </TableRow>
+
+        <TableRow style="@style/layoutStyleV"
+            android:background="@color/violet"
+            android:gravity="center">
+            <TextView
+                android:gravity="center"
+                android:text="ФАЗАН"/>
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
